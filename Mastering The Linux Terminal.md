@@ -7,7 +7,7 @@ comand-name [option] [input]
 - Not all the comand name needs an option / input example date (can be run without additional input)
 - Option is called operand
 - It is possible to use a short option, example: **date -u or long date --universal**
-- CommandNames need to be on the shell search path
+- CommandNames needs to be on the shell search path
 
 ---------------------------------------------------------
 
@@ -97,8 +97,8 @@ Standard Error (2) (stderr): Related to not successful input and return error lo
 *The number in the brackets are "File descriptor" is a number that uniquely identifies
 an open files on computer and description the data resource, in case below associate to data stream.
 
-Standard input (0) ------> Command --------> Standard Output (1)
-Command Arguments ------> [_____________> Standard Error (2)
+- Standard input (0) ------> Command --------> Standard Output (1)
+- Command Arguments ------>  [_____________> Standard Error (2)
 
 Commands in base of his function can have argument, are values used to provide specific info or instruction.
 Example command: **ls** -> Give a list of directory **ls -l** the argument **-l** will return the list in vertical way.
@@ -118,21 +118,21 @@ command **cat** used to concatenate or stick multiple files
 
 **cat** is good example because he read from standard input (terminal) and output in the terminal too.
 
-###### Redirect standard output to a file **cat 1> output.txt**
+#### Redirect standard output to a file **cat 1> output.txt**
 - *Number is connected to the type of stream 1 (output) in this case will work even without number of file destination.
   -What we will write on the terminal will be saved in file called output.txt.
   - Redirecton in case in a new command session will delete what write before
     - To solve and not overwrite the file is needed to add another >: cat >> output.txt
      - This symbols (2) >> appending to file > will overwrite the file.
 
-###### Redirect standard error **cat -k bla 2> error.txt** (cat trigger error with -k)
+#### Redirect standard error **cat -k bla 2> error.txt** (cat trigger error with -k)
 *Number 2 is connect to the data stream error
 
-###### Redirect standard error and output in one line: **cat > output.txt 2>error.txt**
+#### Redirect standard error and output in one line: **cat > output.txt 2>error.txt**
  - In this case output file does not need a number file descriptor but error string need it
  - In this scenario if there are not error result will me save in output.txt if will be error in error.txt
 
-###### Redirect standard input **cat < input.txt**
+#### Redirect standard input **cat < input.txt**
 - It is possible to create a file with **cat > input.txt**
 
 - Call it with cat < input.txt
