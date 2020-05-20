@@ -1,7 +1,6 @@
 # **Linux Tutorial Course**
 
 1. ### Mastering The Linux Terminal 
-[link] (https://github.com/adrianogarru/Mastering-Linux-Tutorial/blob/master/Mastering%20The%20Linux%20Terminal.md)
    - Understading Command structure
    - Differene between terminal and shell
    - Some Commands
@@ -12,6 +11,18 @@
    - Advance Piping Techniques
      - xargs commands
 
-- ###### Mastering The Linux File System
+2. ### Mastering The Linux File System
+   - Linux file System
+   - Navigating the File System
+   - File Extension in Linux
+   - Wildcards
+   - Creating files and directory
+   - Brace expression
+   - Delete files
+   - Remove file with wildcard
+   - Delete folder
+   - Copy file 
+     - Copy file with wildcard
+   - Moving/rename file and folder
 
 - ###### Mastering Task Automation and Scheduling
